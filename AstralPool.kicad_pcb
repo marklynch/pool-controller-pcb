@@ -119,7 +119,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "output/")
 		)
 	)
 	(net 0 "")
@@ -2141,7 +2141,7 @@
 			(uuid "cb8aeb59-ff46-4c9f-98b0-0723650c2afc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -2.55 4.445 270)
+			(at 6.45 9.84 180)
 			(layer "F.Fab")
 			(uuid "bdd2f451-1aa3-4ce5-94d8-76cf86d746de")
 			(effects
@@ -4408,7 +4408,7 @@
 			(uuid "f1405982-a56a-40a4-ad4f-342db0479c1f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -2.55 4.445 90)
+			(at -11.55 9.84 0)
 			(layer "F.Fab")
 			(uuid "b526e171-c2df-4740-8994-aecf4d00ecf0")
 			(effects
@@ -4653,7 +4653,7 @@
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q1"
-			(at 1.27 -3.56 90)
+			(at 2.5 -3.56 90)
 			(layer "F.SilkS")
 			(uuid "c5b17ed1-9390-4283-ba3c-c7693bc2d92e")
 			(effects
@@ -4696,6 +4696,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b9efb5d-bf5c-4730-815d-ebb36e58a17a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e5c45d5-b225-4f64-af74-1f5c9ced7b02")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4974,7 +5000,7 @@
 		)
 	)
 	(gr_text "Power\nCircuit"
-		(at 110 27.5 0)
+		(at 110 27.5 270)
 		(layer "F.SilkS")
 		(uuid "cd146499-b66f-405c-bdab-7819578a0f11")
 		(effects
