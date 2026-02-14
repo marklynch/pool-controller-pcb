@@ -19,7 +19,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Only RX circuit tested as working
 
 ### Changed
-- Reorient board to allow all plugs on one side
+- Rev 6 - Reorient board to allow all plugs on one side
+- Rev 7 - Reorient power circuit again to make cleaner
 
 ### Fixed
 - Fixed all the DRC rule violations and all but one of the ERC issues
