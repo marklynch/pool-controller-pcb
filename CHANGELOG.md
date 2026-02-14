@@ -21,3 +21,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - Fixed all the DRC rule violations and all but one of the ERC issues
 - Make the component imports be relative paths
+- Fixed last ERC consistency issue - modified symbol needed an update
