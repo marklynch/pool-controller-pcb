@@ -18,6 +18,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - RX, TX and Power circuits created
 - Only RX circuit tested as working
 
+### Changed
+- Reorient board to allow all plugs on one side
+
 ### Fixed
 - Fixed all the DRC rule violations and all but one of the ERC issues
 - Make the component imports be relative paths
