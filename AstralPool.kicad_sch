@@ -2947,10 +2947,6 @@
 		(uuid "7ed62803-af26-4a04-84ce-d25892df75b9")
 	)
 	(no_connect
-		(at 83.82 88.9)
-		(uuid "8fea393b-3a0a-4b83-b2d1-8e1f2ddfaaeb")
-	)
-	(no_connect
 		(at 172.72 88.9)
 		(uuid "bda0395a-8e99-4a4e-972c-4e932495d30b")
 	)
