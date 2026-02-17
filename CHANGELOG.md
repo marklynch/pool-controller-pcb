@@ -12,8 +12,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
+### Removed
+### Changed
+### Fixed
+
+## [0.0.9] - 2026-02-17
+### Added
 - Updated readme.md file and include power calculation reference and docs.
 - Added 3d model files - thanks @alangarf
+
+### Changed
+- Rev 9 - Moved the power buck to surface mount component LM2678S-5.0/NOPB
+- Rev 9 - Moved the transistor to a SMD
+- Rev 9 - Added copper pour for GND on both sides
+- Rev 9 - Tided up annotations
 
 ## [0.0.8] - 2026-02-16
 

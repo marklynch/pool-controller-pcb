@@ -4871,7 +4871,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N3904"
+		(property "Value" "MMBT3904"
 			(at 123.19 130.8101 0)
 			(effects
 				(font
@@ -4880,7 +4880,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 123.19 133.985 0)
 			(effects
 				(font
@@ -4891,7 +4891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+		(property "Datasheet" ""
 			(at 128.27 132.08 0)
 			(effects
 				(font
@@ -4901,7 +4901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" ""
 			(at 128.27 132.08 0)
 			(effects
 				(font
@@ -4910,7 +4910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "NPN"
+		(property "Sim.Device" ""
 			(at 128.27 132.08 0)
 			(effects
 				(font
@@ -4919,7 +4919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
+		(property "Sim.Pins" ""
 			(at 128.27 132.08 0)
 			(effects
 				(font
@@ -4964,7 +4964,7 @@
 				)
 			)
 		)
-		(property "Value" "LM2678T-5.0/NOPB"
+		(property "Value" "LM2678S-5.0/NOPB"
 			(at 118.11 29.21 0)
 			(effects
 				(font
@@ -4972,7 +4972,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TA07B:TA07B"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-7_TabPin4"
 			(at 85.09 36.83 0)
 			(effects
 				(font
@@ -4993,6 +4993,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 85.09 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum" "LM2678S-5.0/NOPB"
+			(at 85.09 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 85.09 36.83 0)
 			(effects
 				(font
