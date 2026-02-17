@@ -11,7 +11,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Test Power circuit works
 
 ## [Unreleased]
+### Added
 - Updated readme.md file and include power calculation reference and docs.
+- Added 3d model files - thanks @alangarf
 
 ## [0.0.8] - 2026-02-16
 

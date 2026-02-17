@@ -854,6 +854,17 @@
 			(uuid "11719af0-a922-40ba-87ce-6affa14fff54")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/components/3dmodels/TO-220-7.step"
+			(offset
+				(xyz 1.3 -3.25 14.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 180)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -2058,7 +2069,7 @@
 			(uuid "ac53fcb5-620b-4786-a4a0-3620527a58a0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_10.4x10.4_H4.8.step"
+		(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Coilcraft_MSS1048-XXX.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2077,7 +2088,7 @@
 		(descr "RJ25 6P6C Socket 90 degrees, https://wayconn.com/wp-content/themes/way/datasheet/MJEA-660X1XXX_RJ25_6P6C_PCB_RA.pdf")
 		(tags "RJ12 RJ18 RJ25 jack connector 6P6C")
 		(property "Reference" "J2"
-			(at 4.591303 -4.893321 180)
+			(at 4.591303 -4.893321 0)
 			(layer "F.SilkS")
 			(uuid "0c013c98-cb31-46b7-8e15-a983117e2e2c")
 			(effects
@@ -2088,7 +2099,7 @@
 			)
 		)
 		(property "Value" "RJ12"
-			(at 6.45 4.84 180)
+			(at 6.45 4.84 0)
 			(layer "F.Fab")
 			(uuid "ba3e16b8-1764-4d11-bc4a-d9fcc7207059")
 			(effects
@@ -2350,7 +2361,7 @@
 			(uuid "cb8aeb59-ff46-4c9f-98b0-0723650c2afc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 6.45 9.84 180)
+			(at 6.45 9.84 0)
 			(layer "F.Fab")
 			(uuid "bdd2f451-1aa3-4ce5-94d8-76cf86d746de")
 			(effects
@@ -2435,15 +2446,15 @@
 			(uuid "a5417236-cd82-4ffd-9125-402b984121a1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ25_Wayconn_MJEA-660X1_Horizontal.step"
+		(model "${KIPRJMOD}/components/3dmodels/52018-6646.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -10.8 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -4227,15 +4238,15 @@
 			(uuid "be1802b4-7aa4-4797-bc54-693b44600d6a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ25_Wayconn_MJEA-660X1_Horizontal.step"
+		(model "${KIPRJMOD}/components/3dmodels/52018-6646.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -10.9 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -5117,15 +5128,15 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-24_18.0mmx34.29mm_W15.24mm_Socket.step"
+		(model "${KIPRJMOD}/components/3dmodels/DIP-24_18.0mmx34.29mm_W15.24mm.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 7.5 -14 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
