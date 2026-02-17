@@ -4,9 +4,9 @@ PCB design files for an AstralPool-compatible pool controller interface board.
 
 ## Overview
 
-This project contains a custom PCB designed to interface with AstralPool systems. The board features RS-485 communication circuits (TX/RX) and a regulated power supply to enable reliable communication and control.
+This project contains a custom PCB designed to interface with AstralPool systems. The board features RS-232 like communication on a single wire (TX/RX) and a regulated power supply to enable reliable communication and control.
 
-**Current Version:** 0.0.8 (Rev 8)
+**Current Version:** 0.9.0 (Rev 9)
 
 ## Features
 
@@ -15,7 +15,7 @@ This project contains a custom PCB designed to interface with AstralPool systems
   - Dedicated TX (transmit) circuit - tested and verified
 
 - **Regulated Power Supply**
-  - Based on TI LM2678T-5.0 buck converter
+  - Based on TI LM2678S-5.0 buck converter
   - 5V output voltage
   - Designed using TI WEBENCH tools for optimal performance
 

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Connect 10 Controller")
-		(date "2026-02-16")
-		(rev "8")
+		(date "2026-02-17")
+		(rev "9")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
