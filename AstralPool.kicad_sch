@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Connect 10 Controller")
-		(date "2026-02-17")
-		(rev "9")
+		(date "2026-02-18")
+		(rev "10")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
@@ -4457,7 +4457,7 @@
 				)
 			)
 		)
-		(property "Value" "D 6TQ045S"
+		(property "Value" "PMEG6010CEH,115"
 			(at 132.3975 53.34 0)
 			(effects
 				(font
@@ -5990,7 +5990,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D 6TQ045S"
+		(property "Value" "PMEG6010CEH,115"
 			(at 80.01 83.5024 90)
 			(effects
 				(font

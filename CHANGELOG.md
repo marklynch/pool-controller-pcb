@@ -14,7 +14,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 ### Removed
 ### Changed
+- Rev 10 - moved C5 closer to U1
+- Rev 10 - added via under U1
+- Rev 10 - minor layout improvements.
+
 ### Fixed
+
 
 ## [0.0.9] - 2026-02-17
 ### Added
