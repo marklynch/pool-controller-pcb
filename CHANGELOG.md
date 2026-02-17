@@ -26,6 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Rev 9 - Moved the transistor to a SMD
 - Rev 9 - Added copper pour for GND on both sides
 - Rev 9 - Tided up annotations
+- Rev 9 - Reorient header and move labelling closer
 
 ## [0.0.8] - 2026-02-16
 
