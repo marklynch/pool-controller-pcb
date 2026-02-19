@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Rev 10 - moved C5 closer to U1
 - Rev 10 - added via under U1
 - Rev 10 - minor layout improvements.
+- Rev 10 - Updated all part numbers and use MPN instead of PartNum
 
 ### Fixed
 
