@@ -1,10 +1,10 @@
-# AstralPool Controller PCB
+# Pool Controller PCB
 
-PCB design files for an AstralPool-compatible pool controller interface board.
+PCB design files for an Connect 10 compatible pool controller interface board.
 
 ## Overview
 
-This project contains a custom PCB designed to interface with AstralPool systems. The board features RS-232 like communication on a single wire (TX/RX) and a regulated power supply to enable reliable communication and control.
+This project contains a custom PCB designed to interface with Connect 10 pool systems. The board features RS-232 like communication on a single wire (TX/RX) and a regulated power supply to enable reliable communication and control.
 
 **Current Version:** 0.9.0 (Rev 9)
 
@@ -38,9 +38,9 @@ This project contains a custom PCB designed to interface with AstralPool systems
 
 ```
 pool-controller-pcb/
-├── AstralPool.kicad_pro     # KiCad project file
-├── AstralPool.kicad_sch     # Schematic design
-├── AstralPool.kicad_pcb     # PCB layout
+├── PoolController.kicad_pro     # KiCad project file
+├── PoolController.kicad_sch     # Schematic design
+├── PoolController.kicad_pcb     # PCB layout
 ├── components/              # Custom component libraries
 │   └── ul_LM2678T-5-0-NOPB/ # LM2678 voltage regulator footprint/symbol
 ├── docs/                    # Datasheets and design documentation

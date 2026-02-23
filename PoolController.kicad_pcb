@@ -250,7 +250,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/da52b922-5663-47bf-8e71-4c249c284c74")
 		(sheetname "/")
-		(sheetfile "AstralPool.kicad_sch")
+		(sheetfile "PoolController.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -430,7 +430,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/84bd4eff-f86b-4370-8ad3-b8875a83c556")
 		(sheetname "/")
-		(sheetfile "AstralPool.kicad_sch")
+		(sheetfile "PoolController.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -706,7 +706,7 @@
 		(property ki_fp_filters "TA07B")
 		(path "/5130a068-7663-42b5-b6ff-f9dca73a2443")
 		(sheetname "/")
-		(sheetfile "AstralPool.kicad_sch")
+		(sheetfile "PoolController.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -4.825 -5.2)
@@ -1249,7 +1249,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/5e4e911a-7342-450a-992c-f412fe7be0dd")
 		(sheetname "/")
-		(sheetfile "AstralPool.kicad_sch")
+		(sheetfile "PoolController.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -1429,7 +1429,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a8a7968a-ba1a-40a0-8a4d-a95a817f21d8")
 		(sheetname "/")
-		(sheetfile "AstralPool.kicad_sch")
+		(sheetfile "PoolController.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -1609,7 +1609,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/25a92f8c-377a-4a82-affe-37cca0dff20a")
 		(sheetname "/")
-		(sheetfile "AstralPool.kicad_sch")
+		(sheetfile "PoolController.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 -1.36)
@@ -1887,7 +1887,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/c89f16c8-d9ce-4af0-8839-2c1f4ae87b68")
 		(sheetname "/")
-		(sheetfile "AstralPool.kicad_sch")
+		(sheetfile "PoolController.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.21 1)
@@ -2209,7 +2209,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/2531a2c6-bdc0-42a7-b3ee-018f2fb08080")
 		(sheetname "/")
-		(sheetfile "AstralPool.kicad_sch")
+		(sheetfile "PoolController.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -5.3 5.3)
@@ -2531,7 +2531,7 @@
 		(property ki_fp_filters "6P6C* RJ12* RJ18* RJ25*")
 		(path "/9e55c96f-9ffa-495a-ae6a-40834047e080")
 		(sheetname "/")
-		(sheetfile "AstralPool.kicad_sch")
+		(sheetfile "PoolController.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -8.76 10.95)
@@ -3041,7 +3041,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/a72e77b8-2d14-4cd4-a5f4-3b5f8733cc2e")
 		(sheetname "/")
-		(sheetfile "AstralPool.kicad_sch")
+		(sheetfile "PoolController.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 1.36)
@@ -3221,7 +3221,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e87e7f3d-a878-416c-8394-8352f0d2cee7")
 		(sheetname "/")
-		(sheetfile "AstralPool.kicad_sch")
+		(sheetfile "PoolController.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -3401,7 +3401,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/9ab11f73-7b77-4779-b96c-7e8773bd9a56")
 		(sheetname "/")
-		(sheetfile "AstralPool.kicad_sch")
+		(sheetfile "PoolController.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.38 -1.38)
@@ -3688,7 +3688,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/0bbeb8d0-bf37-4a51-ad75-379fcb464f5d")
 		(sheetname "/")
-		(sheetfile "AstralPool.kicad_sch")
+		(sheetfile "PoolController.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.21 -1)
@@ -4008,7 +4008,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/ec9181b1-ced8-4b5f-8b60-788b0ea287b9")
 		(sheetname "/")
-		(sheetfile "AstralPool.kicad_sch")
+		(sheetfile "PoolController.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 -1.36)
@@ -4284,7 +4284,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/189ab0a0-1587-422d-90e0-acaa112f41b3")
 		(sheetname "/")
-		(sheetfile "AstralPool.kicad_sch")
+		(sheetfile "PoolController.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -4466,7 +4466,7 @@
 		(property ki_fp_filters "6P6C* RJ12* RJ18* RJ25*")
 		(path "/ee94c4aa-751b-46d0-a8b5-26e4a96614cb")
 		(sheetname "/")
-		(sheetfile "AstralPool.kicad_sch")
+		(sheetfile "PoolController.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -8.76 10.95)
@@ -4880,7 +4880,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9ba45e63-9b7c-4ac7-ad5e-a665968f1b7a")
 		(sheetname "/")
-		(sheetfile "AstralPool.kicad_sch")
+		(sheetfile "PoolController.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -5086,7 +5086,7 @@
 		(property ki_fp_filters "TO?92*")
 		(path "/480a85ab-0b44-4502-bec7-657e2a5d26fa")
 		(sheetname "/")
-		(sheetfile "AstralPool.kicad_sch")
+		(sheetfile "PoolController.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.76 1.56)
@@ -5492,7 +5492,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/8856aa51-0bff-4ec4-9904-f2d0375814dc")
 		(sheetname "/")
-		(sheetfile "AstralPool.kicad_sch")
+		(sheetfile "PoolController.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 16.62 -3.175)

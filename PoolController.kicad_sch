@@ -4759,7 +4759,7 @@
 			(uuid "48e6fb59-c5cb-41a3-9645-a1ef425a28e4")
 		)
 		(instances
-			(project "AstralPool"
+			(project "PoolController"
 				(path "/19c01251-b544-42b5-958c-1f3f3624b74e"
 					(reference "L1")
 					(unit 1)
@@ -4844,7 +4844,7 @@
 			(uuid "5025a48d-f9b6-492b-b58f-27afeecb1864")
 		)
 		(instances
-			(project "AstralPool"
+			(project "PoolController"
 				(path "/19c01251-b544-42b5-958c-1f3f3624b74e"
 					(reference "C2")
 					(unit 1)
@@ -5698,7 +5698,7 @@
 			(uuid "70dbfd14-6e2e-42d6-958f-14a438068a25")
 		)
 		(instances
-			(project "AstralPool"
+			(project "PoolController"
 				(path "/19c01251-b544-42b5-958c-1f3f3624b74e"
 					(reference "R4")
 					(unit 1)
@@ -5881,7 +5881,7 @@
 			(uuid "d5af00bc-94d5-43ff-be5d-8928167ce668")
 		)
 		(instances
-			(project "AstralPool"
+			(project "PoolController"
 				(path "/19c01251-b544-42b5-958c-1f3f3624b74e"
 					(reference "C5")
 					(unit 1)
@@ -5969,7 +5969,7 @@
 			(uuid "826c140e-d6c6-4b12-8f42-71304fa77937")
 		)
 		(instances
-			(project "AstralPool"
+			(project "PoolController"
 				(path "/19c01251-b544-42b5-958c-1f3f3624b74e"
 					(reference "R5")
 					(unit 1)
@@ -6123,7 +6123,7 @@
 			(uuid "6150f98c-0c21-4243-b4f3-c3c756be1bb0")
 		)
 		(instances
-			(project "AstralPool"
+			(project "PoolController"
 				(path "/19c01251-b544-42b5-958c-1f3f3624b74e"
 					(reference "D2")
 					(unit 1)
@@ -6208,7 +6208,7 @@
 			(uuid "06b0fe30-0511-445a-a889-7a1fb2d8c9b8")
 		)
 		(instances
-			(project "AstralPool"
+			(project "PoolController"
 				(path "/19c01251-b544-42b5-958c-1f3f3624b74e"
 					(reference "C4")
 					(unit 1)
@@ -6513,7 +6513,7 @@
 			(uuid "af0e11a4-edff-47af-98b8-4b626bc63359")
 		)
 		(instances
-			(project "AstralPool"
+			(project "PoolController"
 				(path "/19c01251-b544-42b5-958c-1f3f3624b74e"
 					(reference "C3")
 					(unit 1)
