@@ -10,16 +10,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [TODO]
 - Test Power circuit works
 
+
 ## [Unreleased]
 ### Added
 ### Removed
+### Changed
+### Fixed
+
+
+## [0.10.0] - 2026-02-23
+### Added
+- Added Licence: CERN Open Hardware Licence Version 2 - Permissive
+
 ### Changed
 - Rev 10 - moved C5 closer to U1
 - Rev 10 - added via under U1
 - Rev 10 - minor layout improvements.
 - Rev 10 - Updated all part numbers and use MPN instead of PartNum
-
-### Fixed
+- Cleaned up some documentation
 
 
 ## [0.0.9] - 2026-02-17

@@ -6,7 +6,7 @@ PCB design files for an Connect 10 compatible pool controller interface board.
 
 This project contains a custom PCB designed to interface with Connect 10 pool systems. The board features RS-232 like communication on a single wire (TX/RX) and a regulated power supply to enable reliable communication and control.
 
-**Current Version:** 0.9.0 (Rev 9)
+The code for the ESP32-C6 is avaialble and documented here: (https://github.com/marklynch/pool-controller-code).
 
 ## Features
 
@@ -70,7 +70,7 @@ Ready-to-manufacture files are available in the `output/` directory:
 ## Getting Started
 
 1. Clone this repository
-2. Open `AstralPool.kicad_pro` in KiCad
+2. Open `PoolController.kicad_pro` in KiCad
 3. Custom component libraries should load automatically via relative paths
 
 ## Documentation
@@ -79,22 +79,12 @@ Ready-to-manufacture files are available in the `output/` directory:
 - Component datasheets are available in the `docs/` directory
 - Power supply design based on TI WEBENCH simulations (see Bode plot in docs)
 
-## Version History
-
-See [CHANGELOG.md](CHANGELOG.md) for a complete list of changes.
-
-**Latest Release (0.0.8 - 2026-02-16):**
-- Updated all footprints to correct specifications
-- Added manufacturer part numbers to all components
-- Redesigned power circuit using TI WEBENCH tools
-- Resolved all DRC/ERC violations
-
 ## Notes
 
 - Component library paths are configured as relative paths for portability
-- Automatic backup files are saved to `AstralPool-backups/`
+- Automatic backup files are saved to `PoolController-backups/`
 - Output files are excluded from git tracking (see `.gitignore`)
 
 ## License
 
-[Add your license information here]
+The designs for this hardware are licenced under the CERN Open Hardware Licence Version 2 - Permissive.
