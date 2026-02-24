@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Connect 10 Controller")
-		(date "2026-02-18")
-		(rev "10")
+		(date "2026-02-24")
+		(rev "11")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
@@ -3118,12 +3118,6 @@
 		(uuid "4ea6e0a9-4388-49bc-a422-3ba9b0cf8318")
 	)
 	(junction
-		(at 130.81 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b0c453d-676a-4446-a667-a8c73c645077")
-	)
-	(junction
 		(at 144.78 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3176,6 +3170,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "894e1ef9-54ce-4244-a3f3-9a42732ce1fa")
+	)
+	(junction
+		(at 130.81 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a5632f0-35fb-4357-8c42-cfafec6aff9f")
 	)
 	(junction
 		(at 77.47 77.47)
@@ -3262,15 +3262,15 @@
 		(uuid "fdbc1fbd-e74b-4ec8-9f92-6812e9608a35")
 	)
 	(no_connect
-		(at 157.48 96.52)
+		(at 161.29 101.6)
 		(uuid "04c85baf-9410-4fc6-852d-ae996c27f831")
 	)
 	(no_connect
-		(at 144.78 99.06)
+		(at 148.59 104.14)
 		(uuid "0a7f3306-df7e-4124-bc82-0f63607aac24")
 	)
 	(no_connect
-		(at 157.48 106.68)
+		(at 161.29 111.76)
 		(uuid "18753649-faf8-4b91-ab4f-e5d6e66e6f86")
 	)
 	(no_connect
@@ -3278,31 +3278,31 @@
 		(uuid "19adaf9f-e663-4369-ae5a-446a7fa03510")
 	)
 	(no_connect
-		(at 144.78 91.44)
+		(at 148.59 96.52)
 		(uuid "207fe093-2bd9-43ff-a7d7-7c8233695fc8")
 	)
 	(no_connect
-		(at 144.78 101.6)
+		(at 148.59 106.68)
 		(uuid "39b0cfe8-556f-4c6b-973f-bba31bea5ec0")
 	)
 	(no_connect
-		(at 157.48 111.76)
+		(at 161.29 116.84)
 		(uuid "42fb5a17-42dc-4301-acf8-02cc19826e97")
 	)
 	(no_connect
-		(at 157.48 83.82)
+		(at 161.29 88.9)
 		(uuid "47a003dd-28f5-4fcf-84ac-38c789c6514c")
 	)
 	(no_connect
-		(at 144.78 88.9)
+		(at 148.59 93.98)
 		(uuid "49da773a-d3a0-478e-b55c-b254431626a2")
 	)
 	(no_connect
-		(at 157.48 88.9)
+		(at 161.29 93.98)
 		(uuid "56c826e3-3db7-47dd-ada9-48a480d14de5")
 	)
 	(no_connect
-		(at 157.48 109.22)
+		(at 161.29 114.3)
 		(uuid "6d2347b9-aa09-4128-a764-25e6ef1975ef")
 	)
 	(no_connect
@@ -3310,44 +3310,54 @@
 		(uuid "7892062e-86d5-45c3-bc21-87bb65a92b14")
 	)
 	(no_connect
-		(at 157.48 93.98)
+		(at 161.29 99.06)
 		(uuid "792a5b47-38fb-4250-acbb-b8e626245c9b")
 	)
 	(no_connect
-		(at 157.48 104.14)
+		(at 161.29 109.22)
 		(uuid "842713a9-5447-4c59-8fc8-8484d46812a5")
 	)
 	(no_connect
-		(at 157.48 99.06)
+		(at 161.29 104.14)
 		(uuid "86b4c30d-6dd5-4436-913e-aa5393326048")
 	)
 	(no_connect
-		(at 144.78 106.68)
+		(at 148.59 111.76)
 		(uuid "9d719eb2-4b76-49b0-821a-ad9d72b9636d")
 	)
 	(no_connect
-		(at 157.48 91.44)
+		(at 161.29 96.52)
 		(uuid "a07e7e0c-b328-4ab4-91d6-60925c288653")
 	)
 	(no_connect
-		(at 157.48 101.6)
+		(at 161.29 106.68)
 		(uuid "ab74b4df-180e-469b-af6b-2130fb00f661")
 	)
 	(no_connect
-		(at 157.48 86.36)
+		(at 161.29 91.44)
 		(uuid "b7b175d6-7319-4c1e-93f0-6c4a2b621bf1")
 	)
 	(no_connect
-		(at 144.78 109.22)
+		(at 148.59 114.3)
 		(uuid "cd40cb2e-32bb-4266-9df0-b1a7dd2484c1")
 	)
 	(no_connect
-		(at 144.78 104.14)
+		(at 148.59 109.22)
 		(uuid "d7e66807-3bc1-42e7-b1d2-094f777d0ee1")
 	)
 	(no_connect
-		(at 144.78 111.76)
+		(at 148.59 116.84)
 		(uuid "f6528cae-7fe4-4d4f-98f2-cf32c61dd58b")
+	)
+	(wire
+		(pts
+			(xy 146.05 88.9) (xy 146.05 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "028dd602-6ae2-4b12-aaba-e0c61739e156")
 	)
 	(wire
 		(pts
@@ -3441,7 +3451,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 120.65) (xy 130.81 86.36)
+			(xy 130.81 120.65) (xy 130.81 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3451,7 +3461,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 109.22) (xy 109.22 93.98)
+			(xy 109.22 109.22) (xy 109.22 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3871,6 +3881,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 83.82) (xy 144.78 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7917e575-3e80-41ac-80ef-0a6a2ef64c92")
+	)
+	(wire
+		(pts
 			(xy 52.07 152.4) (xy 55.88 152.4)
 		)
 		(stroke
@@ -4001,7 +4021,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 96.52) (xy 138.43 96.52)
+			(xy 148.59 101.6) (xy 138.43 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4081,7 +4101,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 96.52) (xy 138.43 105.41)
+			(xy 138.43 101.6) (xy 138.43 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4121,13 +4141,23 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 93.98) (xy 144.78 93.98)
+			(xy 109.22 99.06) (xy 148.59 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b8f70017-be14-42ea-aab2-9e524de7f603")
+	)
+	(wire
+		(pts
+			(xy 130.81 91.44) (xy 130.81 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba522bd1-cca8-4292-ac3c-cf2840ed68f0")
 	)
 	(wire
 		(pts
@@ -4171,7 +4201,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 86.36) (xy 144.78 86.36)
+			(xy 130.81 91.44) (xy 148.59 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4388,6 +4418,16 @@
 			(type default)
 		)
 		(uuid "f008370b-fbf6-45cd-9aaa-2373a79dccca")
+	)
+	(wire
+		(pts
+			(xy 148.59 88.9) (xy 146.05 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7c8e5f2-af8f-4471-be24-881daa6b29b7")
 	)
 	(wire
 		(pts
@@ -5376,7 +5416,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x12_Counter_Clockwise")
-		(at 149.86 96.52 0)
+		(at 153.67 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5385,7 +5425,7 @@
 		(fields_autoplaced yes)
 		(uuid "8856aa51-0bff-4ec4-9904-f2d0375814dc")
 		(property "Reference" "J4"
-			(at 151.13 77.47 0)
+			(at 154.94 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5393,7 +5433,7 @@
 			)
 		)
 		(property "Value" "Conn_02x12_Counter_Clockwise"
-			(at 151.13 80.01 0)
+			(at 154.94 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5401,7 +5441,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-24_18.0mmx34.29mm_W15.24mm_Socket"
-			(at 149.86 96.52 0)
+			(at 153.67 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5410,7 +5450,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 96.52 0)
+			(at 153.67 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5419,7 +5459,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x12, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 149.86 96.52 0)
+			(at 153.67 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5428,7 +5468,7 @@
 			)
 		)
 		(property "Manufacturer" "Amphenol ICC (FCI)"
-			(at 149.86 96.52 0)
+			(at 153.67 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5437,7 +5477,7 @@
 			)
 		)
 		(property "MPN" "DILB24P-223TLF"
-			(at 149.86 96.52 0)
+			(at 153.67 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5732,7 +5772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ25_Wayconn_MJEA-660X1_Horizontal"
+		(property "Footprint" "Connector_RJ:RJ25_RJ12_5324_mini"
 			(at 48.26 130.175 90)
 			(effects
 				(font
@@ -5741,7 +5781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.wayconn.com/rj25-6p6c-pcb-mount-ra/"
+		(property "Datasheet" "https://www.aliexpress.com/i/1005008617248283.html"
 			(at 48.26 130.175 90)
 			(effects
 				(font
@@ -5759,7 +5799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Wayconn"
+		(property "Manufacturer" ""
 			(at 48.26 130.81 0)
 			(effects
 				(font
@@ -5768,7 +5808,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MJEA-660X1XXX"
+		(property "MPN" ""
 			(at 48.26 130.81 0)
 			(effects
 				(font
@@ -6547,7 +6587,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ25_Wayconn_MJEA-660X1_Horizontal"
+		(property "Footprint" "Connector_RJ:RJ25_RJ12_5324_mini"
 			(at 48.26 98.425 90)
 			(effects
 				(font
@@ -6556,7 +6596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.wayconn.com/rj25-6p6c-pcb-mount-ra/"
+		(property "Datasheet" "https://www.aliexpress.com/i/1005008617248283.html"
 			(at 48.26 98.425 90)
 			(effects
 				(font
@@ -6574,7 +6614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Wayconn"
+		(property "Manufacturer" ""
 			(at 48.26 99.06 0)
 			(effects
 				(font
@@ -6583,7 +6623,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MJEA-660X1XXX "
+		(property "MPN" ""
 			(at 48.26 99.06 0)
 			(effects
 				(font

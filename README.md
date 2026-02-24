@@ -6,7 +6,7 @@ PCB design files for an Connect 10 compatible pool controller interface board.
 
 This project contains a custom PCB designed to interface with Connect 10 pool systems. The board features RS-232 like communication on a single wire (TX/RX) and a regulated power supply to enable reliable communication and control.
 
-The code for the ESP32-C6 is avaialble and documented here: (https://github.com/marklynch/pool-controller-code).
+The code for the ESP32-C6 is available and documented here: (https://github.com/marklynch/pool-controller-code).
 
 ## Features
 
