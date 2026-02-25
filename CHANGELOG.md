@@ -13,13 +13,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
+### Changed
+### Deprecated
 ### Removed
+### Fixed
+
+
+## [0.10.1] - 2026-02-26
 ### Changed
 - Rev 11 - changed RJ12 connectors to 5324 6P6C pieces and updated pcb
 - Rev 11 - additional gnd connecting vias under buck (U1)
-
-### Fixed
-
 
 ## [0.10.0] - 2026-02-23
 ### Added
