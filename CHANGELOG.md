@@ -19,6 +19,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 
+## [0.10.2] - 2026-03-15
+### Changed
+- Rev 12 - fixed error in connecting vias shorting gnd to Net D2-K 
+- Rev 12 - tidy up routing of D2
+
 ## [0.10.1] - 2026-02-26
 ### Changed
 - Rev 11 - changed RJ12 connectors to 5324 6P6C pieces and updated pcb
