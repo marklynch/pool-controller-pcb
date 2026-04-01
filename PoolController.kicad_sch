@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Connect 10 Controller")
-		(date "2026-02-24")
-		(rev "11")
+		(date "2026-04-01")
+		(rev "13")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
@@ -2319,8 +2319,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+			(property "Reference" "Q1"
+				(at 5.08 -1.2701 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2328,8 +2328,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "2N3904"
-				(at 5.08 0 0)
+			(property "Value" "MMBT3904"
+				(at 5.08 1.2699 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2337,7 +2337,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(property "Footprint" "MMBT3904:SOT-23_MCC"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -2345,10 +2345,9 @@
 						(italic yes)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2358,7 +2357,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2367,7 +2366,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "NPN"
+			(property "Sim.Device" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2376,7 +2375,25 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Pins" "1=E 2=B 3=C"
+			(property "Sim.Pins" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Guangdong Hottech"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "MMBT3904"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2487,7 +2504,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2523,7 +2540,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4920,7 +4937,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "MMBT3904:SOT-23_MCC"
 			(at 123.19 133.985 0)
 			(effects
 				(font
@@ -4928,7 +4945,6 @@
 					(italic yes)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""

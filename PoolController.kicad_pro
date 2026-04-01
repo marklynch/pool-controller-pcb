@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.6,
-          "width": 1.6
+          "drill": 0.0,
+          "height": 1.6002,
+          "width": 0.5588
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -239,7 +239,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|1282700|1320800|480a85ab-0b44-4502-bec7-657e2a5d26fa|00000000-0000-0000-0000-000000000000|||",
+        "Custom pinout to make this match actual transistor MMBT3904"
+      ]
+    ],
     "meta": {
       "version": 0
     },
