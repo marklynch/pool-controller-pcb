@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 ### Changed
+- Set the board thickness to 1.2mm instead of default 1.6mm
 ### Deprecated
 ### Removed
 ### Fixed
