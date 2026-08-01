@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Connect 10 Controller")
-		(date "2026-04-01")
-		(rev "13")
+		(date "2026-08-01")
+		(rev "14")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
@@ -3608,7 +3608,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 119.38) (xy 105.41 111.76)
+			(xy 105.41 111.76) (xy 105.41 127)
 		)
 		(stroke
 			(width 0)
@@ -5684,7 +5684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ba45e63-9b7c-4ac7-ad5e-a665968f1b7a")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 140.97 107.9499 0)
 			(effects
 				(font
@@ -5693,7 +5693,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R10k"
+		(property "Value" "R1k"
 			(at 140.97 110.4899 0)
 			(effects
 				(font
@@ -5729,7 +5729,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-0710KL"
+		(property "MPN" "RC0603FR-071KL"
 			(at 138.43 109.22 0)
 			(effects
 				(font
@@ -5756,7 +5756,7 @@
 		(instances
 			(project "PoolController"
 				(path "/19c01251-b544-42b5-958c-1f3f3624b74e"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5955,7 +5955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8a7968a-ba1a-40a0-8a4d-a95a817f21d8")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 140.97 137.1599 0)
 			(effects
 				(font
@@ -5964,7 +5964,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R10k"
+		(property "Value" "R100k"
 			(at 140.97 139.6999 0)
 			(effects
 				(font
@@ -6000,7 +6000,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-0710KL"
+		(property "MPN" "RC0603FR-07100KL"
 			(at 138.43 138.43 0)
 			(effects
 				(font
@@ -6027,7 +6027,7 @@
 		(instances
 			(project "PoolController"
 				(path "/19c01251-b544-42b5-958c-1f3f3624b74e"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6267,94 +6267,6 @@
 			(project "PoolController"
 				(path "/19c01251-b544-42b5-958c-1f3f3624b74e"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 105.41 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e87e7f3d-a878-416c-8394-8352f0d2cee7")
-		(property "Reference" "R3"
-			(at 107.95 121.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R470"
-			(at 107.95 124.4599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 103.632 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 105.41 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-07470RL"
-			(at 105.41 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 105.41 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "89f226a8-5c41-43fe-9ce2-34fc1703b028")
-		)
-		(pin "2"
-			(uuid "5c4d10db-bc75-4202-b435-7dcc142cac19")
-		)
-		(instances
-			(project ""
-				(path "/19c01251-b544-42b5-958c-1f3f3624b74e"
-					(reference "R3")
 					(unit 1)
 				)
 			)

@@ -8,17 +8,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [TODO]
-- Test Power circuit works
+- Test Zener Diode fix
 
 
 ## [Unreleased]
 ### Added
 ### Changed
-- Set the board thickness to 1.2mm instead of default 1.6mm
 ### Deprecated
 ### Removed
 ### Fixed
 
+## [1.1.0] - 2026-08-01
+### Changed
+- Set the board thickness to 1.2mm instead of default 1.6mm
+### Fixed
+- Rev 14 - Fixed TX circuit to handle 12v as well as 7v
 
 ## [1.0.0] - 2026-04-01
 ### Fixed
