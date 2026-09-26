@@ -1,0 +1,40 @@
+{
+  "kicad_version": "9.0.9",
+  "carrier_parts": 20,
+  "source_sha256": {
+    "PoolController.kicad_pcb": "290a59f8df9d611542c1a8a3dd7005ef9f71535e976ce15e9c55578aa1403d8a",
+    "PoolController.kicad_sch": "e35eb1d575448ed33af4393a7edbc40b6db9ffcf55567e37bc25c396a47ba204",
+    "PoolController.kicad_pro": "aef23f818c3ed1947e629cb3ffb3673c13c99617a533d8275263e4dcb61bb602",
+    "fp-lib-table": "ab5ebf73e2e45cfe8c55da4440e98772d672f3ef7b4bf433c10901512ce7c2a3",
+    "sym-lib-table": "d0bb6956a3f66e908ebafac8a5357a3d94863e20919d3e50b6d62c16f50f518a",
+    "components/PoolController.kicad_sym": "ae800d1dee961006a75f494d7ab609df8b584d76ea4318d3cb167d9643a49245",
+    "components/ul_LM2678T-5-0-NOPB/KiCADv6/2026-02-05_23-51-42.kicad_sym": "6b9857b20f6cb3fb2931b38ace4edb33354f3579968dc554b0e6723c1b965fac",
+    "components/ul_MMBT3904-TP/KiCADv6/2026-04-01_04-19-14.kicad_sym": "18f3f5d77842b51523ca426c59cbc7e5dd912241415428fb40cbf855d751fffd",
+    "components/PoolController.pretty/RJ12_5324_6P6C.kicad_mod": "a0f2a421e93dbfcb29848468912276bb49218b99bfbc762f0edb391460752075",
+    "components/PoolController.pretty/RJ12_Ckmtw_R-RJ11R06P-A000.kicad_mod": "6fafe885983c51fe5b119fb1c33f580f8ba54b1609ec1d58eb36c653bc000e63",
+    "components/PoolController.pretty/Samtec_SSW-109-01-T-S_1x09.kicad_mod": "afd64d7c21d48854c1ecbdf8796980eed103c07c47fab3560d34251e0b724b05",
+    "components/ul_LM2678T-5-0-NOPB/KiCADv6/footprints.pretty/TA07B.kicad_mod": "a6b48f2a39ea77666facfd4cebe855f656891e0546c244a63e85addb4a7b443d",
+    "components/ul_MMBT3904-TP/KiCADv6/footprints.pretty/SOT-23_MCC-L.kicad_mod": "cfe15c8c65c7f02f411640edf25ea374844726405773a9827b21bec647c5ee43",
+    "components/ul_MMBT3904-TP/KiCADv6/footprints.pretty/SOT-23_MCC-M.kicad_mod": "41c85df5b3d7bb3f9bbc3f3dc7d2d8b3b73158d33872792abde3fe68ea4ceee5",
+    "components/ul_MMBT3904-TP/KiCADv6/footprints.pretty/SOT-23_MCC.kicad_mod": "0781b091a507ec78ce65a6bb1a82012f2197926fef57c51fef183e3fb41747fa",
+    "scripts/export-manufacturing.sh": "48c12a0a9fd8f473b4f04c9c569d51e98b532b3dce79c7e82b76eec4d54023a2",
+    "scripts/package-manufacturing.py": "b13fcc1a91ccc027a285b978e8c4705804fd55b9ea3b59f5f1570c2a7399070d",
+    "scripts/prepare-enclosure.py": "af6f78454ec3aba7a9268befd7f06b2d459534a22e6ea764ecdaf649842f7e4e",
+    "manufacturing/procurement.json": "ed0aa46e93bb14af7c2e28a589aaf262a6fb79c42120a85675378db1a8c90b69",
+    "docs/rev15-assembly.md": "a567ec603ac73d906df6e23f2cb9b39740f2cd1144af18730d9664585ff8037c",
+    "docs/rev15-enclosure.md": "28b5c977e31c47e73e39d7afde0a624c3f2c072aa080cd1f9f46a23aaed82527",
+    "manufacturing/rev15/PCBWay-instructions.md": "6b21245f2258acbd3033577cd595fe084ade48c594793576ce432066fc402224"
+  },
+  "artifact_sha256": {
+    "BOM.csv": "e549c7f4ece0ce48fabcc05136b48e257bdfe46bf0bb517d79f027df1a224fc5",
+    "CPL.csv": "98aee6e7c9d4510314ec14dfd0ecea6b079d3804f9870a5171c0e2cb77cf6b64",
+    "PCBWay-BOM.csv": "e549c7f4ece0ce48fabcc05136b48e257bdfe46bf0bb517d79f027df1a224fc5",
+    "PCBWay-SMT-CPL.csv": "da4b897195328717c62e307bbfd13faaa20ca56f95765c2b10c557287bbf70a8",
+    "PCBWay-package.zip": "eabdf5ce50345faadd2a51a7dcb626cb83788a733b30112c76f7c09172c031fb",
+    "assembly.pdf": "13d166c400cb2bd4ca2a7a142b02690965c21f624be4f555420f56d43aa1da34",
+    "copper.pdf": "bab225c17c6269ee3de7190984c1a3acd37f7e7c77f8a535a714ceb4cd1b0b18",
+    "fabrication.zip": "0aabcd85e1e8085e1cf2d72746615d008f539c0a0957b2dad3e3ad580ea3dd8c",
+    "schematic.pdf": "074c87b2d4f66a1017efd4b13d320483895bfe6187b5f61cf804716173dcde81"
+  },
+  "status": "Prototype; procurement and physical acceptance remain required. See README.md and docs/rev15-assembly.md."
+}

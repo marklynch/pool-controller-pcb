@@ -1,0 +1,73 @@
+{
+  "C0805C104M5RACTU": {
+    "Supplier": "DigiKey",
+    "Supplier URL": "https://www.digikey.com/en/products/detail/kemet/C0805C104M5RACTU/411168"
+  },
+  "PMEG6010CEH,115": {
+    "Supplier": "LCSC",
+    "Supplier Part": "C110797",
+    "Supplier URL": "https://www.lcsc.com/product-detail/C110797.html"
+  },
+  "BAT54,215": {
+    "Supplier": "LCSC",
+    "Supplier Part": "C85084",
+    "Supplier URL": "https://www.lcsc.com/product-detail/C85084.html"
+  },
+  "R-RJ11R06P-A000": {
+    "Supplier": "LCSC",
+    "Supplier Part": "C2902699",
+    "Supplier URL": "https://www.lcsc.com/product-detail/C2902699.html",
+    "Procurement note": "6P6C, tab down, right angle. Use new Ckmtw footprint only; original 5324 socket is not interchangeable. Verify retention on 1.2 mm PCB."
+  },
+  "PZ254V-11-04P": {
+    "Supplier": "LCSC",
+    "Supplier Part": "C2691448",
+    "Supplier URL": "https://www.lcsc.com/product-detail/C2691448.html"
+  },
+  "MMBT3904": {
+    "Supplier": "LCSC",
+    "Supplier Part": "C181119",
+    "Supplier URL": "https://www.lcsc.com/product-detail/C181119.html",
+    "Procurement note": "Use specified Guangdong Hottech manufacturer."
+  },
+  "RC0603FR-07100KL": {
+    "Supplier": "LCSC",
+    "Supplier Part": "C14675",
+    "Supplier URL": "https://www.lcsc.com/product-detail/C14675.html"
+  },
+  "RC0603FR-07560RL": {
+    "Supplier": "Mouser",
+    "Supplier URL": "https://au.mouser.com/en/ProductDetail/YAGEO/RC0603FR-07560RL",
+    "Procurement note": "Mouser stock observed; DigiKey backordered at review. Confirm allocation."
+  },
+  "LM2678S-5.0/NOPB": {
+    "Supplier": "DigiKey",
+    "Supplier URL": "https://www.digikey.com/en/products/detail/texas-instruments/LM2678S-5-0-NOPB/363825",
+    "Procurement note": "Confirm 245 C peak reflow limit and thermal-pad via treatment."
+  },
+  "C2012C0G1H103J060AA": {
+    "Supplier": "DigiKey / manufacturer stock locator",
+    "Supplier URL": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012C0G1H103J060AA",
+    "Procurement note": "TDK Production; manufacturer recommended successor, 5% tolerance."
+  },
+  "CL32B106KMVNNWE": {
+    "Supplier": "DigiKey",
+    "Supplier URL": "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL32B106KMVNNWE/7320558",
+    "Procurement note": "Active distributor listing. 10uF 63V X7R; maximum height 2.8mm. Exact part only; qualify input ripple at 40V on samples."
+  },
+  "CL32A476KOJNNNE": {
+    "Supplier": "DigiKey",
+    "Supplier URL": "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL32A476KOJNNNE/3889034",
+    "Procurement note": "Samsung Mass Production. Exact part only; qualify power-stage startup/load transients on samples."
+  },
+  "SRR1050HA-121Y": {
+    "Supplier": "DigiKey",
+    "Supplier URL": "https://www.digikey.com/en/products/detail/bourns-inc/SRR1050HA-121Y/16883859",
+    "Procurement note": "Active HA series; 245 C maximum reflow peak."
+  },
+  "SSW-109-01-T-S": {
+    "Supplier": "DigiKey",
+    "Supplier URL": "https://www.digikey.com/en/products/detail/samtec-inc/SSW-109-01-T-S/1112296",
+    "Procurement note": "Two 9-position socket strips per carrier; tin contacts and tails, 8.51mm body height. Do not substitute taller/shorter sockets without mechanical review."
+  }
+}

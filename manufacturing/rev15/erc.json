@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-12T09:33:23+1000",
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "9.0.9",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/19c01251-b544-42b5-958c-1f3f3624b74e",
+            "violations": []
+        }
+    ],
+    "source": "PoolController.kicad_sch"
+}

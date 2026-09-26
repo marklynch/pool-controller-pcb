@@ -1,0 +1,15 @@
+Designator,Comment,Footprint,Manufacturer,MPN,Quantity,Supplier,Supplier Part,Supplier URL,Procurement note
+C1,10nF,Capacitor_SMD:C_0805_2012Metric,TDK,C2012C0G1H103J060AA,1,DigiKey / manufacturer stock locator,,https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012C0G1H103J060AA,"TDK Production; manufacturer recommended successor, 5% tolerance."
+"C2,C3",C 10uF/63v,Capacitor_SMD:C_1210_3225Metric,Samsung Electro-Mechanics,CL32B106KMVNNWE,2,DigiKey,,https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL32B106KMVNNWE/7320558,Active distributor listing. 10uF 63V X7R; maximum height 2.8mm. Exact part only; qualify input ripple at 40V on samples.
+C4,100nF/50v,Capacitor_SMD:C_0805_2012Metric,Kemet,C0805C104M5RACTU,1,DigiKey,,https://www.digikey.com/en/products/detail/kemet/C0805C104M5RACTU/411168,
+C5,C 47uF/16v,Capacitor_SMD:C_1210_3225Metric,Samsung Electro-Mechanics,CL32A476KOJNNNE,1,DigiKey,,https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL32A476KOJNNNE/3889034,Samsung Mass Production. Exact part only; qualify power-stage startup/load transients on samples.
+"D1,D2","PMEG6010CEH,115",Diode_SMD:D_SOD-123F,Nexperia,"PMEG6010CEH,115",2,LCSC,C110797,https://www.lcsc.com/product-detail/C110797.html,
+D3,BAT54,Package_TO_SOT_SMD:SOT-23,Nexperia,"BAT54,215",1,LCSC,C85084,https://www.lcsc.com/product-detail/C85084.html,
+"J1,J2",RJ12,PoolController:RJ12_Ckmtw_R-RJ11R06P-A000,Ckmtw,R-RJ11R06P-A000,2,LCSC,C2902699,https://www.lcsc.com/product-detail/C2902699.html,"6P6C, tab down, right angle. Use new Ckmtw footprint only; original 5324 socket is not interchangeable. Verify retention on 1.2 mm PCB."
+J3,Header,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,XFCN,PZ254V-11-04P,1,LCSC,C2691448,https://www.lcsc.com/product-detail/C2691448.html,
+"J4,J5",SSW-109-01-T-S,PoolController:Samtec_SSW-109-01-T-S_1x09,Samtec,SSW-109-01-T-S,2,DigiKey,,https://www.digikey.com/en/products/detail/samtec-inc/SSW-109-01-T-S/1112296,"Two 9-position socket strips per carrier; tin contacts and tails, 8.51mm body height. Do not substitute taller/shorter sockets without mechanical review."
+L1,L 120uH,Inductor_SMD:L_10.4x10.4_H4.8,Bourns,SRR1050HA-121Y,1,DigiKey,,https://www.digikey.com/en/products/detail/bourns-inc/SRR1050HA-121Y/16883859,Active HA series; 245 C maximum reflow peak.
+Q1,MMBT3904,MMBT3904:SOT-23_MCC,Guangdong Hottech,MMBT3904,1,LCSC,C181119,https://www.lcsc.com/product-detail/C181119.html,Use specified Guangdong Hottech manufacturer.
+"R1,R2,R4",R100k,Resistor_SMD:R_0603_1608Metric,YAGEO,RC0603FR-07100KL,3,LCSC,C14675,https://www.lcsc.com/product-detail/C14675.html,
+R3,R560,Resistor_SMD:R_0603_1608Metric,YAGEO,RC0603FR-07560RL,1,Mouser,,https://au.mouser.com/en/ProductDetail/YAGEO/RC0603FR-07560RL,Mouser stock observed; DigiKey backordered at review. Confirm allocation.
+U1,LM2678S-5.0/NOPB,Package_TO_SOT_SMD:TO-263-7_TabPin4,Texas Instruments,LM2678S-5.0/NOPB,1,DigiKey,,https://www.digikey.com/en/products/detail/texas-instruments/LM2678S-5-0-NOPB/363825,Confirm 245 C peak reflow limit and thermal-pad via treatment.

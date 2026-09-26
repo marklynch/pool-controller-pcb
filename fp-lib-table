@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "TA07B")(type "KiCad")(uri "${KIPRJMOD}/components/ul_LM2678T-5-0-NOPB/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "MMBT3904")(type "KiCad")(uri "${KIPRJMOD}/components/ul_MMBT3904-TP/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "PoolController")(type "KiCad")(uri "${KIPRJMOD}/components/PoolController.pretty")(options "")(descr "Project-specific footprints"))
 )

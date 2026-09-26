@@ -41,3 +41,5 @@ fp-info-cache
 
 # Generated output files
 /output
+# Reviewed, revision-specific manufacturing exports
+!manufacturing/rev15/*.csv

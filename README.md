@@ -1,90 +1,31 @@
 # Pool Controller PCB
 
-PCB design files for an Connect 10 compatible pool controller interface board.
+KiCad design for a Connect 10 compatible pool-bus interface, using the finished **Waveshare ESP32-C6 Mini Development Board (ESP32-C6-Zero)** plugged into a carrier socket. The board provides a 5 V buck supply and single-wire receive/transmit interface. Firmware is maintained in [pool-controller-code](https://github.com/marklynch/pool-controller-code).
 
-## Overview
+## Current revision
 
-This project contains a custom PCB designed to interface with Connect 10 pool systems. The board features RS-232 like communication on a single wire (TX/RX) and a regulated power supply to enable reliable communication and control.
+**Revision 15 is a prototype for validation.** It adds the 3.3 V RX clamp from [issue #3](https://github.com/marklynch/pool-controller-pcb/issues/3) and changes the TX base resistor to 560 Ω as proposed in [issue #4](https://github.com/marklynch/pool-controller-pcb/issues/4). It retains the existing 80 × 75 mm outline and 1.2 mm thickness.
 
-The code for the ESP32-C6 is available and documented here: (https://github.com/marklynch/pool-controller-code).
+The RX clamp requires the Waveshare 3.3 V rail and does not provide power-off isolation. Confirm operation during boot/reset/shutdown and at both 7 V and 12 V data-high levels before field use. The power-supply design report's detailed operating point is **5 V / 0.5 A**; a 5 A regulator IC does not make this a 5 A board.
 
-## Features
+See [revision 15 assembly and acceptance](docs/rev15-assembly.md) before ordering. J1/J2 now specify distributor-stocked Ckmtw R-RJ11R06P-A000 (LCSC C2902699), with a matching new footprint and connector routing. The original case has a 1.3 mm PCB slot, so retain the 1.2 mm board. Its RJ12 openings need enlargement: see [enclosure fit and same-case variant](docs/rev15-enclosure.md). Confirm snap-peg retention on the 1.2 mm board with PCBWay. The Waveshare boards have already been purchased separately; PCBWay should supply the soldered carrier and its two Samtec socket strips, with no additional module purchase.
 
-- **Communication Interface**
-  - Dedicated RX (receive) circuit - tested and verified
-  - Dedicated TX (transmit) circuit - tested and verified
+## Files
 
-- **Regulated Power Supply**
-  - Based on TI LM2678S-5.0 buck converter
-  - 5V output voltage
-  - Designed using TI WEBENCH tools for optimal performance
+- `PoolController.kicad_pro`, `.kicad_sch`, `.kicad_pcb`: source project, schematic and routed PCB.
+- `components/`: project-specific symbols, footprints and existing 3D models.
+- `docs/`: component/design references and prototype assembly instructions.
+- `manufacturing/rev15/`: revision-specific sample-order exports and validation record.
+- `scripts/export-manufacturing.sh`: reproduce manufacturing exports using KiCad 9.
 
-- **Optimized Layout**
-  - All connectors positioned on one side for easy installation
-  - Clean signal routing with minimal crosstalk
-  - DRC/ERC compliant design
+Use **KiCad 9** to open and validate the project. Custom library paths are relative to the project. A 3D model is not a substitute for checking the dimensions and pin mapping of the actual purchased part.
 
-## Project Status
+## Ordering prototypes
 
-- [x] RX circuit designed and tested
-- [x] TX circuit designed and tested
-- [x] Power circuit designed and specified
-- [x] PCB layout optimized (Rev 8)
-- [x] DRC/ERC violations resolved
-- [x] Manufacturing files generated (Gerbers, BOM)
-- [ ] Power circuit testing pending
+For PCBWay, use `PCBWay-BOM.csv` (carrier parts only; Waveshare boards are customer-supplied) and `PCBWay-SMT-CPL.csv`. Read the assembly notes, confirm exact-part allocation and module installation, and review their DFM and placement previews before authorizing fabrication/assembly. Gerbers and drill files cover the bare board; the BOM, placement file and assembly drawing define fitted carrier parts. Fit the customer-owned module after delivery, or arrange consignment and separately quote installation/programming with PCBWay.
 
-## Project Structure
+Physical checks, supplier approval, firmware programming and functional testing are distinct from KiCad ERC/DRC. Generated files are a prototype build package, not proof of field reliability.
 
-```
-pool-controller-pcb/
-├── PoolController.kicad_pro     # KiCad project file
-├── PoolController.kicad_sch     # Schematic design
-├── PoolController.kicad_pcb     # PCB layout
-├── components/              # Custom component libraries
-│   └── ul_LM2678T-5-0-NOPB/ # LM2678 voltage regulator footprint/symbol
-├── docs/                    # Datasheets and design documentation
-│   ├── ZV1636_datasheetMain_96004.pdf
-│   └── WBDesign1_Bode Plot-1.pdf
-├── output/                  # Manufacturing files
-│   ├── gerbers_v8.zip      # Latest Gerber files for PCB fabrication
-│   ├── BOM_v8.csv          # Bill of Materials
-│   └── ...
-├── CHANGELOG.md            # Version history
-└── README.md              # This file
-```
+## Licence
 
-## Manufacturing Files
-
-Ready-to-manufacture files are available in the `output/` directory:
-
-- **Gerber Files:** `gerbers_v8.zip` - Contains all layers for PCB fabrication
-- **Bill of Materials:** `BOM_v8.csv` - Complete component list with part numbers
-- **Drill Files:** Included in gerber package (PTH and NPTH)
-
-## Requirements
-
-- **KiCad 6.0 or later** - Required to open and edit the design files
-- All custom components and footprints are included in the `components/` directory
-
-## Getting Started
-
-1. Clone this repository
-2. Open `PoolController.kicad_pro` in KiCad
-3. Custom component libraries should load automatically via relative paths
-
-## Documentation
-
-- See [CHANGELOG.md](CHANGELOG.md) for detailed version history and changes
-- Component datasheets are available in the `docs/` directory
-- Power supply design based on TI WEBENCH simulations (see Bode plot in docs)
-
-## Notes
-
-- Component library paths are configured as relative paths for portability
-- Automatic backup files are saved to `PoolController-backups/`
-- Output files are excluded from git tracking (see `.gitignore`)
-
-## License
-
-The designs for this hardware are licenced under the CERN Open Hardware Licence Version 2 - Permissive.
+Hardware designs are licensed under the CERN Open Hardware Licence Version 2 — Permissive; see [LICENCE](LICENCE). See [CHANGELOG.md](CHANGELOG.md) for revision history.
