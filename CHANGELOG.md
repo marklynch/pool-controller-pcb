@@ -8,10 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [TODO]
-- Complete revision 15 prototype acceptance (see docs/rev15-assembly.md).
+- Electromagnetic Compatibility (EMC) validation
+
+## [Unreleased] 
+### Added
+### Changed
 
 
-## [Unreleased] — Revision 16
+## [1.2.0] - 2026-11-03 — Revision 16 tested working
 ### Added
 - D3 BAT54,215 RX clamp to the Waveshare module 3.3 V rail through J4 pin 3 (issue #3).
 - Project-local clamp symbol and retained custom RJ12 footprint.
@@ -19,17 +23,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Sample fabrication/assembly outputs and a functional acceptance checklist.
 - Pin-adjacent VIN/RX/TX/GND labels for J3.
 - PCBWay carrier BOM excluding already-purchased Waveshare modules, SMT-only centroid, and nominated supplier links for all carrier parts.
-
 ### Changed
 - Updated tracks for rev 16 - no functional changes
 - R3 TX base resistor from 1 kΩ to 560 Ω (issue #4; called R4 in older revisions). R4 stays 100 kΩ.
 - J1/J2 to Ckmtw R-RJ11R06P-A000 (LCSC C2902699), with new drilled footprint and connector-region routing. Larger tab-down body requires enclosure/retention review.
 - C1/C2/C3/C5 and L1 to current production/active-listed parts; record capacitor DC-bias qualification limits.
 - Obsolete DIP-24 socket to J4/J5 Samtec SSW-109-01-T-S nine-position socket strips with manufacturer-derived 1.04 mm drill pattern.
-
-### Validation status
-- Prototype revision; physical validation remains required. The rail clamp does not provide power-off isolation.
-- PCBWay quote acceptance, exact-part allocation, connector fit on the 1.2 mm board and module installation remain required before assembly.
 
 ## [1.1.0] - 2026-08-01
 ### Changed
